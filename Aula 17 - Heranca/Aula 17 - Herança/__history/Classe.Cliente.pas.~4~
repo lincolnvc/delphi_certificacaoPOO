@@ -1,0 +1,15 @@
+unit Classe.Cliente;
+
+interface
+
+uses Classe.Pessoa, Interfaces;
+
+type
+  TCliente = class(TPessoa)
+    Saldo : Currency;
+    constructor Create(aConexao : IConexao); override;
+  end;
+
+implementation
+
+end.

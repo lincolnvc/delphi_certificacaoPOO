@@ -1,0 +1,13 @@
+unit Classe.Fornecedor;
+
+interface
+
+uses Classe.Pessoa;
+
+type
+  Fornecedor = class(TPessoa)
+  end;
+
+implementation
+
+end.

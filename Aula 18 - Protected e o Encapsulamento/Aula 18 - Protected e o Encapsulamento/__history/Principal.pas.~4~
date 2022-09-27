@@ -1,0 +1,46 @@
+unit Principal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, Cliente;
+
+type
+  TForm1 = class(TForm)
+    Button2: TButton;
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+uses Conexao.MySQL, Conexao.SQLServer;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+  Cliente : TPessoa;
+begin
+  Cliente := TPessoa.Create(TConexaoMySQL.Create);
+  try
+    Cliente.Nome := 'Fulano';
+    Cliente.Telefone := '276317263';
+    Cliente.Endereco := 'Rua do Teste de Software';
+    Cliente.Cidade := 'Niteroi';
+    Cliente.Cadastrar;
+    Cliente.CriarFinanceiro;
+  finally
+    Cliente.Free;
+  end;
+end;
+
+end.

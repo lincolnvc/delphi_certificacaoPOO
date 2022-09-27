@@ -1,0 +1,91 @@
+unit Aula4;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, Cliente;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure CadastrarCliente(Nome, Telefone, Endereco, Cidade : String);
+
+
+    procedure CadastrarClientePOO(Value : TCliente);
+
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  CadastrarCliente('Thulio', '3232839238', 'Rua do Teste 21', 'Niteroi');
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+  Cliente : TCliente;
+begin
+  Cliente := TCliente.Create;
+  try
+    Cliente.Nome := 'Thulio';
+    Cliente.Telefone := '276317263';
+    Cliente.Endereco := 'Rua do Teste de Software';
+    Cliente.Cidade := 'Niteroi';
+    CadastrarClientePOO(Cliente);
+  finally
+    Cliente.Free;
+  end;
+end;
+
+procedure TForm1.CadastrarCliente(Nome, Telefone, Endereco, Cidade : String);
+var
+  Lista : TStringList;
+begin
+  Lista := TStringList.Create;
+  try
+    Lista.Add('Nome:' + Nome);
+    Lista.Add('Telefone:' + Telefone);
+    Lista.Add('Endereço:' + Endereco);
+    Lista.Add('Cidade:' + Cidade);
+    Lista.SaveToFile('Cliente.txt');
+  finally
+    Lista.Free;
+  end;
+end;
+
+procedure TForm1.CadastrarClientePOO(Value: TCliente);
+var
+  Lista : TStringList;
+begin
+  Lista := TStringList.Create;
+  try
+    Lista.Add('Nome:' + Value.Nome);
+    Lista.Add('Telefone:' + Value.Telefone);
+    Lista.Add('Endereço:' + Value.Endereco);
+    Lista.Add('Cidade:' + Value.Cidade);
+    Lista.Add('UF:' + Value.UF);
+    Lista.SaveToFile('Cliente.txt');
+  finally
+    Lista.Free;
+  end;
+
+end;
+
+end.

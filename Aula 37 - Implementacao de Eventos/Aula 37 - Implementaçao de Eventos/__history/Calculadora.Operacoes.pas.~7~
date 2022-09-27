@@ -1,0 +1,27 @@
+unit Calculadora.Operacoes;
+
+interface
+
+uses Calculadora.Interfaces, System.Generics.Collections, Calculadora.Eventos;
+
+type
+  TOperacoes = class(TInterfacedObject, iOperacoes)
+  protected
+    FLista : TList<double>;
+    FEvDisplayTotal : TEvDisplayTotal;
+  public
+    function Executar : String; virtual;
+    function Display : iCalculadoraDisplay;
+  end;
+
+implementation
+
+{ TOperacoes }
+
+
+function TOperacoes.Executar: String;
+begin
+  FLista.Clear;
+end;
+
+end.

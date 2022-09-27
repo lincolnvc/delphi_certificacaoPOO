@@ -1,0 +1,17 @@
+unit Calculadora.Soma;
+
+interface
+
+type
+  TSoma = class(TInterfacedObject, iOperacoes)
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New: iOperacoes;
+    function Operacao(Num1, Num2: double): double; overload;
+    function Operacao(Num1, Num2: String) : String; overload;
+  end;
+
+implementation
+
+end.

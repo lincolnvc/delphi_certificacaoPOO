@@ -1,0 +1,268 @@
+unit Classe.Calculadora;
+
+interface
+
+uses
+  Controls, System.Generics.Collections;
+
+type
+  iOperacoes = interface
+    ['{655C8757-9943-4A39-840C-D2DBC0B7039A}']
+    //function Operacao : double; overload;
+    function Operacao : String;
+  end;
+
+  iCalculadora = interface
+    function Add(Value : String) : iCalculadora; overload;
+    function Add(Value : Currency) : iCalculadora; overload;
+    function Add(Value : Integer) : iCalculadora; overload;
+    function Soma: iOperacoes;
+    function Subtrair: iOperacoes;
+    function Dividir: iOperacoes;
+    function Multiplicar: iOperacoes;
+  end;
+
+
+  TCaptionHelper = record helper for TCaption
+    function ToCurrency : Currency;
+  end;
+
+  TStrHelper = record helper for String
+    function ToCurrency : Currency;
+  end;
+
+
+  TOperacao = class(TInterfacedObject, iOperacoes)
+  protected
+    FLista : TList<double>;
+  public
+    function Operacao : String; virtual; abstract;
+  end;
+
+  TSoma = class sealed (TOperacao)
+  public
+    constructor Create(Value : TList<double>);
+    destructor Destroy; override;
+    class function New(Value : TList<double>) : iOperacoes;
+    function Operacao : String; override;
+  end;
+
+  TSubtrair = class sealed (TOperacao)
+  public
+    constructor Create(Value : TList<double>);
+    destructor Destroy; override;
+    class function New(Value : TList<double>) : iOperacoes;
+    function Operacao : String; override;
+  end;
+
+  TMultiplicar = class sealed (TOperacao)
+  public
+    constructor Create(Value : TList<double>);
+    destructor Destroy; override;
+    class function New(Value : TList<double>): iOperacoes;
+    function Operacao : String; override;
+  end;
+
+  TDividir = class sealed (TOperacao)
+  public
+    constructor Create(Value : TList<double>);
+    destructor Destroy; override;
+    class function New(Value : TList<double>): iOperacoes;
+    function Operacao : String; override;
+  end;
+
+  TCalculadora = class(TInterfacedObject, iCalculadora)
+  private
+    FLista : TList<double>;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New: iCalculadora;
+    function Add(Value : String) : iCalculadora; overload;
+    function Add(Value : Currency) : iCalculadora; overload;
+    function Add(Value : Integer) : iCalculadora; overload;
+    function Soma: iOperacoes;
+    function Subtrair: iOperacoes;
+    function Dividir: iOperacoes;
+    function Multiplicar: iOperacoes;
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TSoma }
+
+constructor TSoma.Create(Value : TList<double>);
+begin
+  FLista := Value;
+end;
+
+destructor TSoma.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TSoma.New(Value : TList<double>) : iOperacoes;
+begin
+  Result := Self.Create(Value);
+end;
+
+
+function TSoma.Operacao : String;
+var
+  I: Integer;
+begin
+   for I := 0 to FLista.Count -1 do
+     Result := Result.ToCurrency + FLista[I];
+end;
+
+
+{ TSubtrair }
+
+constructor TSubtrair.Create(Value : TList<double>);
+begin
+  FLista := Value;
+end;
+
+destructor TSubtrair.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TSubtrair.New(Value : TList<double>) : iOperacoes;
+begin
+  Result := Self.Create(Value);
+end;
+
+function TSubtrair.Operacao : String;
+var
+  I: Integer;
+begin
+   for I := 0 to FLista.Count -1 do
+     Result := Result.ToCurrency - FLista[I];
+end;
+
+{ TDividir }
+
+constructor TDividir.Create(Value : TList<double>);
+begin
+  FLista := Value;
+end;
+
+destructor TDividir.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TDividir.New(Value : TList<double>): iOperacoes;
+begin
+  Result := Self.Create(Value);
+end;
+
+function TDividir.Operacao : String;
+begin
+  Result := ''; //(Num1.ToCurrency / Num2.ToCurrency).ToString;
+end;
+
+{ TMultiplicar }
+
+constructor TMultiplicar.Create(Value : TList<double>);
+begin
+  FLista := Value;
+end;
+
+destructor TMultiplicar.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TMultiplicar.New(Value : TList<double>): iOperacoes;
+begin
+  Result := Self.Create(Value);
+end;
+
+function TMultiplicar.Operacao : String;
+begin
+  Result := '';
+end;
+
+{ TCalculadora }
+
+function TCalculadora.Add(Value: String) : iCalculadora;
+begin
+  Result := Self;
+  FLista.Add(Value.ToCurrency);
+end;
+
+function TCalculadora.Add(Value: Currency) : iCalculadora;
+begin
+  Result := Self;
+  FLista.Add(Value);
+end;
+
+function TCalculadora.Add(Value: Integer) : iCalculadora;
+begin
+  Result := Self;
+  FLista.Add(Value.ToDouble);
+end;
+
+constructor TCalculadora.Create;
+begin
+  FLista := TList<Double>.Create;
+end;
+
+destructor TCalculadora.Destroy;
+begin
+  FLista.Free;
+  inherited;
+end;
+
+function TCalculadora.Dividir: iOperacoes;
+begin
+  Result := TDividir.New(FLista);
+end;
+
+function TCalculadora.Multiplicar: iOperacoes;
+begin
+  Result := TMultiplicar.New(FLista);
+end;
+
+class function TCalculadora.New: iCalculadora;
+begin
+  Result := Self.Create;
+end;
+
+function TCalculadora.Soma: iOperacoes;
+begin
+  Result := TSoma.New(FLista);
+end;
+
+function TCalculadora.Subtrair: iOperacoes;
+begin
+  Result := TSubtrair.New(FLista);
+end;
+
+{ TCaptionHelper }
+
+function TCaptionHelper.ToCurrency: Currency;
+begin
+  Result := StrToCurr(Self);
+end;
+
+{ TStrHelper }
+
+function TStrHelper.ToCurrency: Currency;
+begin
+  if Self = '' then Self := '0';
+  Result := StrToCurr(Self);
+end;
+
+{ TOperacao }
+
+end.

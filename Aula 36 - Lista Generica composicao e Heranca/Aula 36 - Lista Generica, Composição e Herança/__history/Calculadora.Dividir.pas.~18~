@@ -1,0 +1,36 @@
+unit Calculadora.Dividir;
+
+interface
+
+uses Calculadora.Interfaces, Calculadora.Helpers, System.SysUtils;
+
+type
+  TDividir = class(TInterfacedObject, iOperacoes)
+    constructor Create;
+    destructor Destroy; override;
+    class function New: iOperacoes;
+    function Executar : String; virtual;
+  end;
+
+implementation
+
+
+{ TDividir }
+
+constructor TDividir.Create;
+begin
+
+end;
+
+destructor TDividir.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TDividir.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+end.

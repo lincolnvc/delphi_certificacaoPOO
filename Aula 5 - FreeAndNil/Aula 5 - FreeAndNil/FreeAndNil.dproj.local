@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/20 13:51:44.000.262,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 13:59:29.000.772,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:31:36.000.352,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:33:22.000.953,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:34:00.000.652,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 22:05:55.000.069,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/08 09:07:40.000.704,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/02 16:44:38.000.944,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/02 17:01:16.000.527,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\Unit1.pas</Transaction>
+    <Transaction>2017/08/02 17:01:16.000.527,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\Unit1.fmx</Transaction>
+    <Transaction>2017/08/02 17:01:19.000.599,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\Aula2.dproj</Transaction>
+    <Transaction>2017/08/02 17:01:24.000.264,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\ModelSupport_Aula2\default.txaPackage</Transaction>
+    <Transaction>2017/08/02 17:01:25.000.669,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\ModelSupport_Aula2\default.txvpck</Transaction>
+    <Transaction>2017/08/02 17:01:26.000.689,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\ModelSupport_Aula2\Aula2\default.txvpck</Transaction>
+    <Transaction>2017/08/02 17:01:33.000.287,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\ModelSupport_Aula2\Aula2\default.txaPackage</Transaction>
+    <Transaction>2017/08/02 17:01:35.000.739,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\ModelSupport_Aula2\Unit1\default.txvpck</Transaction>
+    <Transaction>2017/08/02 17:01:36.000.091,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\ModelSupport_Aula2\Unit1\default.txaPackage</Transaction>
+    <Transaction>2017/08/02 17:02:47.000.919,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 2\Aula2.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3 - Conhecendo o Together\Aula3.dproj</Transaction>
+    <Transaction>2017/08/08 15:16:57.000.572,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:17:30.000.868,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\Unit1.pas</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.120,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3_1\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.205,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3_1\Unit1\default.txvpck</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.187,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3_1\Aula3_1\default.txvpck</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.074,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\Aula3_1.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\Aula3.dproj</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.172,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3_1\default.txvpck</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.288,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3_1\Unit1\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.101,d:\projetos\cursos\delphi updates\módulo i\aula 3.1 - criando e destruindo objetos\modelsupport_aula3\default.txapackage=</Transaction>
+    <Transaction>2017/08/08 15:17:43.000.306,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.1 - Criando e Destruindo Objetos\ModelSupport_Aula3_1\Aula3_1\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.960,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\Aula3_1\default.txvpck</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.734,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\Aula3_1.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\Aula3_2.dproj</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.929,d:\projetos\cursos\delphi updates\módulo i\aula 3.2 - freeandnil\modelsupport_aula3_1\aula3_1\default.txvpck=</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.833,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\default.txvpck</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.866,d:\projetos\cursos\delphi updates\módulo i\aula 3.2 - freeandnil\modelsupport_aula3_1\unit1\default.txvpck=</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.896,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\Unit1\default.txvpck</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.772,d:\projetos\cursos\delphi updates\módulo i\aula 3.2 - freeandnil\modelsupport_aula3_1\default.txapackage=</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.835,d:\projetos\cursos\delphi updates\módulo i\aula 3.2 - freeandnil\modelsupport_aula3_1\unit1\default.txapackage=</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.803,d:\projetos\cursos\delphi updates\módulo i\aula 3.2 - freeandnil\modelsupport_aula3_1\default.txvpck=</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.802,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.899,d:\projetos\cursos\delphi updates\módulo i\aula 3.2 - freeandnil\modelsupport_aula3_1\aula3_1\default.txapackage=</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.928,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\Aula3_1\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:36:35.000.865,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\Unit1\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:36:36.000.124,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\Aula3_2\default.txaPackage</Transaction>
+    <Transaction>2017/08/08 15:36:36.000.075,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 3.2 - FreeAndNil\ModelSupport_Aula3_2\Aula3_2\default.txvpck</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.789,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\default.txapackage=</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.931,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\aula3_2\default.txapackage=</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.824,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\default.txvpck=</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.983,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\Aula3_2\default.txaPackage</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.985,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\aula3_2\default.txvpck=</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.894,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\unit1\default.txvpck=</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.928,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\Unit1\default.txvpck</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.748,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\FreeAndNil.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\Aula3_2.dproj</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.859,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\unit1\default.txapackage=</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.893,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\Unit1\default.txaPackage</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.857,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\default.txvpck</Transaction>
+    <Transaction>2017/09/29 10:07:26.000.823,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\default.txaPackage</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.040,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\Aula3_2\default.txvpck</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.212,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\FreeAndNil\default.txaPackage</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.112,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\Aula3_1\default.txvpck</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.043,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\aula3_1\default.txapackage=</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.078,d:\projetos\cursos\delphi updates\módulo i\aula 5 - freeandnil\aula 5 - freeandnil\modelsupport_aula3_2\aula3_1\default.txvpck=</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.182,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\FreeAndNil\default.txvpck</Transaction>
+    <Transaction>2017/09/29 10:07:27.000.077,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 5 - FreeAndNil\Aula 5 - FreeAndNil\ModelSupport_FreeAndNil\Aula3_1\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>

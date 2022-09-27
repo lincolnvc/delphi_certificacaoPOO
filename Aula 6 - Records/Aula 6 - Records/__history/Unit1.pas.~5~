@@ -1,0 +1,69 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls;
+
+type
+
+  TMeuObjeto = class
+
+  end;
+
+  TGarrafa = class
+    Cor : String;
+    Modelo : String;
+    Tampa : String;
+    procedure ArmazenarLiquido(Liquido : String);
+  end;
+
+
+  TForm1 = class(TForm)
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure CriarGarrafa(var aObject : TGarrafa);
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+{ TGarrafa }
+
+procedure TGarrafa.ArmazenarLiquido(Liquido: String);
+begin
+ //teste;
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  MinhaGarrafa : TGarrafa;
+begin
+  MinhaGarrafa := nil;
+  CriarGarrafa(MinhaGarrafa);
+  try
+    MinhaGarrafa.Modelo := 'Vidro';
+    MinhaGarrafa.Cor := 'Vermelha';
+  finally
+    MinhaGarrafa.Free;
+  end;
+
+  MinhaGarrafa := TGarrafa.Create;
+end;
+
+procedure TForm1.CriarGarrafa(var aObject: TGarrafa);
+begin
+  aObject := TGarrafa.Create;
+end;
+
+end.

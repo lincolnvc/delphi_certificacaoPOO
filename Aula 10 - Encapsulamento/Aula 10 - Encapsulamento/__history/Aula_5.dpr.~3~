@@ -1,0 +1,15 @@
+program Aula_5;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  Aula5 in 'Aula5.pas' {Form1},
+  Cliente in 'Cliente.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

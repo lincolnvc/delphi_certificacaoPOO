@@ -1,0 +1,16 @@
+unit Calculadora.Helpers;
+
+interface
+
+type
+  TCaptionHelper = record helper for TCaption
+    function ToCurrency : Currency;
+  end;
+
+  TStrHelper = record helper for String
+    function ToCurrency : Currency;
+  end;
+
+implementation
+
+end.

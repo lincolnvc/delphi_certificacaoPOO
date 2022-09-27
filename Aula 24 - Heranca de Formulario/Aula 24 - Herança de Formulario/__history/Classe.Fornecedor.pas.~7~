@@ -1,0 +1,23 @@
+unit Classe.Fornecedor;
+
+interface
+
+uses Classe.Pessoa, Interfaces;
+
+type
+  TFornecedor = class(TPessoa)
+    RazaoSocial : String;
+    constructor Create(aConexao : IConexao); override;
+  end;
+
+implementation
+
+{ TFornecedor }
+
+constructor TFornecedor.Create(aConexao: IConexao);
+begin
+  inherited;
+  RazaoSocial := 'Thulio Bittencourt Treinamentos';
+end;
+
+end.

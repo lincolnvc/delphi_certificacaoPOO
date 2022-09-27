@@ -1,0 +1,48 @@
+unit Calculadora.Soma;
+
+interface
+
+uses Calculadora.Interfaces, Calculadora.Helpers, System.SysUtils;
+
+type
+  TSoma = class(TInterfacedObject, iOperacoes)
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New: iOperacoes;
+    function Operacao(Num1, Num2: double): double; overload;
+    function Operacao(Num1, Num2: String) : String; overload;
+  end;
+
+implementation
+
+{ TSoma }
+
+constructor TSoma.Create;
+begin
+
+end;
+
+destructor TSoma.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TSoma.New: iOperacoes;
+begin
+  Result := Self.Create;
+end;
+
+
+function TSoma.Operacao(Num1, Num2: String): String;
+begin
+   Result := (Num1.ToDouble + Num2.ToDouble).ToString;
+end;
+
+function TSoma.Operacao(Num1, Num2: double): double;
+begin
+  Result := Num1 + Num2;
+end;
+
+end.

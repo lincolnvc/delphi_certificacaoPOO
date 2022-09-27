@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/20 13:51:44.000.262,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 13:59:29.000.772,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:31:36.000.352,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:33:22.000.953,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:34:00.000.652,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 22:05:55.000.069,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/08 09:07:40.000.704,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 08:39:39.000.224,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 11:48:27.000.986,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/08/05 11:48:27.000.232,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 11:48:29.000.089,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2017/08/11 10:52:08.000.037,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 15:42:04.000.341,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 16:31:44.000.202,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 16:32:19.000.391,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Aula_15.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 16:32:19.000.391,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Aula_15.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/08/12 16:32:38.000.782,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Principal.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Aula_15.pas</Transaction>
+    <Transaction>2017/08/12 16:32:38.000.782,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Principal.dfm=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Aula_15.dfm</Transaction>
+    <Transaction>2017/08/12 16:32:46.000.119,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Aula_15.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/08/12 16:37:08.000.185,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 16:37:18.000.217,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Classe.Calculadora.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 15 - Interfaces Declaração e Implementação\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 16:56:11.000.653,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 16 - Interfaces e Metodos Construtores\Aula_15.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 16 - Interfaces e Metodos Construtores\Aula_16.dproj</Transaction>
+    <Transaction>2017/08/12 17:49:17.000.220,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_16.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_18.dproj</Transaction>
+    <Transaction>2017/08/12 18:06:01.000.338,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_18.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_19.dproj</Transaction>
+    <Transaction>2017/08/12 19:12:11.000.996,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_19.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_20.dproj</Transaction>
+    <Transaction>2017/08/12 19:42:49.000.606,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_20.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 18 - Classe Helper\Aula_19.dproj</Transaction>
+    <Transaction>2017/08/12 19:44:37.017,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Aula_20.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Aula_19.dproj</Transaction>
+    <Transaction>2017/08/12 19:46:50.440,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:47:19.531,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Calculadora.Interfaces.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:47:42.994,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:47:53.991,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Calculadora.Helpers.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:48:18.393,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:48:26.243,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Calculadora.Soma.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:49:13.162,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:49:32.447,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Calculadora.Subtrair.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:50:10.817,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:50:19.696,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Calculadora.Multiplicar.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:51:04.267,=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 19:51:11.541,D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Calculadora.Dividir.pas=D:\Projetos\Cursos\Delphi Updates\Módulo I\Aula 20 - Refatoração\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
